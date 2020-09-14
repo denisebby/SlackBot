@@ -1,0 +1,28 @@
+{
+  "name": "SlackBot",
+  "version": "1.0.0",
+  "description": "This is a bot for slack",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisebby/SlackBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisebby/SlackBot/issues"
+  },
+  "homepage": "https://github.com/denisebby/SlackBot#readme",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.12.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.4"
+  }
+}
